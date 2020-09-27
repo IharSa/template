@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; обращение к шрифтам*/
+html {
+  font-size: 10px;
+  /* основной шрифт */
+}
+
+body {
+  font-size: 1.6rem;
+  /*умножается на основной, в данном случаи
+    html=10px *1.6rem и получаем рабочий шрифр 16px */
+  font-family: 'Open Sans', Verdana, sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 46px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contact {
+  background-color: #FFEEE1;
+}
+
+/**/
+.icon-square_lilium {
+  /*ВСТАВЛЯЕМ SVG ЧЕРЕЗ class*/
+  background-image: url(/Template/image/icon1.svg);
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+
+
+.promo {
+  height: 100vh;
+  background-color: bisque;
+}
+/*# sourceMappingURL=style.css.map */
