@@ -4,10 +4,9 @@ font-family: 'Poppins', sans-serif; обращение к шрифтам*/
 @import "abstract/constants";
 @import "base/base";
 @import "layouts/wrapper";
-@import "layout/header";
+@import "layouts/header";
 @import "component/contact-us";
 
-/**/
 .icon-square_lilium {  /*ВСТАВЛЯЕМ SVG ЧЕРЕЗ class*/
     background-image: url(/Template/image/icon1.svg);
     width: 50px;

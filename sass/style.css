@@ -9,12 +9,12 @@ html {
 body {
   font-size: 1.6rem;
   /*умножается на основной, в данном случаи
-    html=10px *1.6rem и получаем рабочий шрифр 16px */
-  font-family: 'Open Sans', Verdana, sans-serif;
+  html=10px *1.6rem и получаем рабочий шрифр 16px */
+  font-family: "Open Sans", Verdana, sans-serif;
 }
 
 h1 {
-  font-family: 'Poppins', Verdana, sans-serif;
+  font-family: "Poppins", Verdana, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 44px;
@@ -54,11 +54,22 @@ h5 {
   margin: auto;
 }
 
+.header {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 15px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .contact {
   background-color: #FFEEE1;
 }
 
-/**/
 .icon-square_lilium {
   /*ВСТАВЛЯЕМ SVG ЧЕРЕЗ class*/
   background-image: url(/Template/image/icon1.svg);
@@ -67,10 +78,10 @@ h5 {
   display: inline-block;
 }
 
-
-
+/*ВСТАВЛЯЕМ SVG ЧЕРЕЗ class*/
 .promo {
   height: 100vh;
   background-color: bisque;
 }
+
 /*# sourceMappingURL=style.css.map */
