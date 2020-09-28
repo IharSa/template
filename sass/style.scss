@@ -3,21 +3,18 @@ font-family: 'Poppins', sans-serif; обращение к шрифтам*/
 
 @import "abstract/constants";
 @import "base/base";
+@import "base/buttons";
 @import "layouts/wrapper";
 @import "layouts/header";
+@import "component/promo";
 @import "component/contact-us";
+@import "component/covers";
 
-.icon-square_lilium {  /*ВСТАВЛЯЕМ SVG ЧЕРЕЗ class*/
-    background-image: url(/Template/image/icon1.svg);
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-} /*ВСТАВЛЯЕМ SVG ЧЕРЕЗ class*/
+
 
 
 .promo {
     height: 100vh;
-    background-color: bisque;
 }
 
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template/ Шаблон</title>
-    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
 
@@ -13,14 +13,15 @@
 <!--Header-->
 <header class="header">
   <div class="wrapper header__wrapper">
-    <a href="#" class="logo">logo </a>
-
+    <a href="#" class="logo">
+<object data="image/Logo.svg" type="image/svg+xml" class="logo-object"></object>
+    </a>
     <nav class="header__navigation">
-        <ul>
-            <li>Home<a href="#"></a></li>
-            <li>Services<a href="#"></a></li>
-            <li>About<a href="#"></a></li>
-            <li>Product<a href="#"></a></li>
+        <ul class="navigation" >
+            <li class="navigation__link">Home<a href="#"></a></li>
+            <li class="navigation__link">Services<a href="#"></a></li>
+            <li class="navigation__link">About<a href="#"></a></li>
+            <li class="navigation__link">Product<a href="#"></a></li>
         </ul>
     </nav>
 
@@ -34,7 +35,7 @@
 
 <!--Section promo-->
 <section class="promo">
-<div class="wrapper">
+<div class="wrapper promo__wrapper">
 <div class="promo__content">
     <h1>The Design Thinking superpowers</h1>
     <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
@@ -45,6 +46,7 @@
         Watch the Video</a>
 </div>
 </div>
+<img src="image/promo.jpg" alt="promo">
 </div>
 </section>
 <!--the end promo-->
