@@ -16,5 +16,8 @@
     "url": "https://github.com/IharSa/template/issues"
   },
   "homepage": "https://github.com/IharSa/template#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }
