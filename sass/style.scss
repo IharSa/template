@@ -10,16 +10,19 @@ font-family: 'Poppins', sans-serif; обращение к шрифтам*/
 @import "base/base";
 @import "base/buttons";
 @import "base/icons";
+@import "base/tags";
 
 //макет
 @import "layouts/wrapper";
 @import "layouts/header";
 @import "layouts/columns";
+@import "layouts/footer";
 
 //сомпоненты
 @import "component/promo";
 @import "component/tools";
 @import "component/contact-us";
+@import "component/strategies";
 @import "component/covers";
 @import "component/navigation";
 

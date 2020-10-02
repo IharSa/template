@@ -3,8 +3,53 @@
     display: inline-block;
 }
 
+.icon-square {
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    &_yellow {
+        background-color: $color-yellow;
+    }
+    &_red {
+        background-color: $color-red;
+    }
+    &_blue {
+        background-color: $color-blue;
+    }
+    &_lilium {
+        background-color: $color-lilium;
+    }
+}
+
 .icon_play {
     background-image: url("../../image/icon_play.svg");
     width: 18px;
     height: 19px;
+}
+
+.icon_arrow {
+    background-image: url("../../image/arrow.svg");
+    width: 12px;
+    height: 17px;
+}
+
+.icon_yellow {
+    background-image: url("../../image/rew.svg");
+    width: 18px;
+    height: 14px;
+}
+
+.icon_red {
+    background-image: url("../../image/red.svg");
+    width: 17px;
+    height: 15px;
+}
+
+.icon_blue {
+    background-image: url("../../image/blue.svg");
+    width: 15px;
+    height: 17px;
 }

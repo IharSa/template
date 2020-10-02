@@ -1,3 +1,46 @@
 .contact {
     background-color: $color-background;
+    padding: 62px 0 64px;
+}
+
+.contact-title {
+    margin: 0 0;
+}
+
+.contact-us__form {
+   input, textarea {
+    border: 1px solid $color-light;
+    background-color: $color-light;
+    padding:  10px 21px;
+    border-radius: 5px;
+    &:focus {
+        border: 1px solid $color-primary;
+        outline: none;
+    }
+   }
+   textarea {
+    resize: none;
+    width: 507px;
+    height: 160px;
+
+   }
+}
+
+.contact-us__liner {
+    margin-bottom: 19px;
+}
+
+.contact_text {
+    @extend %font-add;
+}
+
+.contact-us__button {
+    >* {min-width: 50px;
+        text-align: center;
+
+    }
+}
+
+.qw {
+    margin: 0 25px 18px 0;
 }
