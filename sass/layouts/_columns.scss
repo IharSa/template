@@ -1,9 +1,9 @@
 .layout-4-column {
-    @include columns($width: 21%);
+    @include columns($width: 22%);
 }
 
 .layout-3-column {
-    @include columns($width: 30%);
+    @include columns($width: 24%);
     flex-wrap: wrap;
 }
 

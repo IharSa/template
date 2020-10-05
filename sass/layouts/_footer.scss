@@ -14,6 +14,7 @@
 
 .footer-navigation__links {
     list-style-type: none;
+    padding: 0;
     @extend %font-add;
     @include font($size: 1.6rem, $weight: normal, $height: 3.5rem);
     a {

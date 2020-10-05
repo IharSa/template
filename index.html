@@ -56,7 +56,7 @@
 <section class="tools">
 <div class="wrapper tool__wrapper">
 <h2 class="tools__title ">We design tools to unveil your superpowers</h2>
-<div class="layout-4-column">
+<div class="  layout-4-column">
     <!--4-column-->
     <div class="tool">
         <div class="tool__icon">
@@ -65,8 +65,8 @@
             </span>
             <!--Вставка svg через background. Вставляем span или любой другой тег, задаём ему class и обращаемся к class в css. -->
         </div>
-        <h4>First click tests</h4>
-        <p>While most people enjoy
+        <h4 class="tool__title">First click tests</h4>
+        <p class="tool__text">While most people enjoy
             casino gambling,</p>
     </div>
     <div class="tool">
@@ -86,8 +86,8 @@
 
             </span>
         </div>
-        <h4>Preference tests</h4>
-        <p>The My space page defines
+        <h4 class="tool__title">Preference tests</h4>
+        <p class="tool__text">The My space page defines
             the individual.</p>
     </div>
     <div class="tool">
@@ -97,8 +97,8 @@
 
             </span>
         </div>
-        <h4>Five second tests</h4>
-        <p>Personal choices and the overall personality of the person. </p>
+        <h4 class="tool__title">Five second tests</h4>
+        <p class="tool__text">Personal choices and the overall personality of the person. </p>
     </div>
     <!--the end 4-column-->
 </div>
@@ -184,30 +184,39 @@
 <!--Section About Us-->
 <section class="about-us">
 <div class="wrapper">
-<h2>About Us</h2>
-<p>Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</p>
+<h2 class="about-us__title">About Us</h2>
+<p class="about-us__description">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</p>
 <!-- layout -->
-<div class="layout-3-column ">
+<div class="layout-3-column employee__wrapper ">
     <div class="employee block-shadowed">
         <div class="employee__content">
-            <h5>The Design Thinking superpowers</h5>
-            <p class="employee__title">Product Manager</p>
-            <a href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
+            <h5 class="employee__title">Kathy Rosenberg</h5>
+            <p class="employee__name">Product Manager</p>
+            <a class="employee__imail" href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
         </div>
+
+            <img class="employee__photo" src="image/1.png" alt="Product Manager">
+
     </div>
     <div class="employee block-shadowed">
         <div class="employee__content">
-            <h5>Alexandra Boyarskaya</h5>
-            <p class="employee__title">Support Marketing Specialist</p>
-            <a href="mailto:alexandrab@gmail.com">alexandrab@gmail.com</a>
+            <h5 class="employee__title">Alexandra Boyarskaya</h5>
+            <p class="employee__name">Support Marketing Specialist</p>
+            <a class="employee__imail" href="mailto:alexandrab@gmail.com">alexandrab@gmail.com</a>
         </div>
+
+            <img class="employee__photo" src="image/2.png" alt="Alexandra Boyarskaya">
+
     </div>
     <div class="employee block-shadowed">
         <div class="employee__content">
-            <h5>Melani Amini</h5>
-            <p class="employee__title">Photographer</p>
-            <a href="mailto:melania@gmail.com">melania@gmail.com</a> <!--href="mailto:   "-->
+            <h5 class="employee__title">Melani Amini</h5>
+            <p class="employee__name">Photographer</p>
+            <a class="employee__imail" href="mailto:melania@gmail.com">melania@gmail.com</a> <!--href="mailto:   "-->
         </div>
+
+            <img class="employee__photo" src="image/3.png" alt="Melani Amini">
+
     </div>
 </div>
 <!-- the end layout -->
@@ -223,11 +232,11 @@
     <div class="layout-2-column contact-us__liner">
       <div class="contact-us__content">
           <p class="contact_text">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</p>
-          <p>
-              <span class="icon icon_phone"></span><a href="tel:+3751111111">+375 (22) 345-00-99</a>
+          <p class="key">
+              <span class="icon__block icon_phone"></span><a class="text" href="tel:+3751111111">+375 (22) 345-00-99</a>
           </p>
-          <p>
-              <span class="icon icon_letter"></span><a href="mailto:emailname@gmail.com">emailname@gmail.com</a>
+          <p class="key">
+              <span class="icon__block icon_letter"></span><a class="text" href="mailto:emailname@gmail.com">emailname@gmail.com</a>
         </p>
       </div>
       <div class="contact-us__form">

@@ -44,3 +44,44 @@
 .qw {
     margin: 0 25px 18px 0;
 }
+
+.key {
+    display: flex;
+    cursor: pointer;
+    @extend %transition;
+    :hover {
+        color: $color-additional;
+        text-decoration-line: underline;
+    }
+
+}
+
+
+.icon_phone {
+    background: url(../../image/Group.svg) no-repeat center;
+    width: 13px;
+    height: 13px;
+
+
+}
+
+.icon_letter {
+    background: url(../../image/Union.svg) no-repeat center;
+    width: 11px;
+    height: 8px;
+}
+
+.icon__block {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: $color-light;
+    border-radius: 50%;
+    margin-right: 11px;
+}
+
+.text {
+    color: $color-heading;
+    text-decoration: none;
+    @include font($size: 2.5rem, $height: 2.6rem, $weight: normal);
+}

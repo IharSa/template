@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    @extend %font-prim;
+    /*@extend %font-prim;*/
     @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
   /*умножается на основной, в данном случаи
     html=10px *1.6rem и получаем рабочий шрифр 16px */
