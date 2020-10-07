@@ -1,10 +1,25 @@
 .contact {
     background-color: $color-background;
     padding: 62px 0 64px;
+    @include media-laptop {
+        text-align: center;
+    }
+}
+
+.contact-us__content {
+    @include media-laptop {
+        margin-bottom: 36px;
+    }
 }
 
 .contact-title {
     margin: 0 0;
+}
+
+.contact-us-container {
+    @include media-laptop {
+        flex-direction: column;
+    }
 }
 
 .contact-us__form {
@@ -28,6 +43,13 @@
 
 .contact-us__liner {
     margin-bottom: 19px;
+    @include media-mobile {
+        flex-direction: column;
+        margin-bottom: 0px;
+        >* {
+margin-bottom: 19px;
+        }
+    }
 }
 
 .contact_text {
@@ -52,6 +74,9 @@
     :hover {
         color: $color-additional;
         text-decoration-line: underline;
+    }
+    @include media-laptop {
+        justify-content: center;
     }
 
 }

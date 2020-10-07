@@ -1,5 +1,6 @@
-/*font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif; обращение к шрифтам*/
+
+@charset "UTF-8";
+
 @import "base/normalize";
 // импорт Абстракт
 @import "abstract/constants";
@@ -11,6 +12,7 @@ font-family: 'Poppins', sans-serif; обращение к шрифтам*/
 @import "base/buttons";
 @import "base/icons";
 @import "base/tags";
+@import "base/hamburger";
 
 //макет
 @import "layouts/wrapper";

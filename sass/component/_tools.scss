@@ -27,8 +27,33 @@
 .tools_button {
     margin-top: 60px;
     text-align: center;
+    @include media-mobile {
+        margin-top: 0;
+    }
 }
 
 .tool_text {
     margin: 0;
+}
+/* responsive*/
+.tool-container {
+    @include media-laptop {
+        flex-wrap: wrap;
+        >.tool {
+            flex-basis: 43%;
+        }
+    }
+    @include media-mobile {
+        >.tool {
+            flex-basis: 100%;
+            margin-bottom: 31px;
+        }
+    }
+}
+
+.tool {
+    @include media-laptop {
+        text-align: center;
+
+    }
 }
