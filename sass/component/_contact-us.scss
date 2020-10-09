@@ -7,9 +7,11 @@
 }
 
 .contact-us__content {
-    @include media-laptop {
-        margin-bottom: 36px;
-    }
+    max-width: 520px;
+     @include media-tablet {
+    max-width: 100%;
+    margin-bottom: 36px;
+}
 }
 
 .contact-title {
@@ -23,6 +25,7 @@
 }
 
 .contact-us__form {
+    padding-top: 16px;
    input, textarea {
     border: 1px solid $color-light;
     background-color: $color-light;
@@ -33,24 +36,26 @@
         outline: none;
     }
    }
-   textarea {
-    resize: none;
-    width: 507px;
-    height: 160px;
-
-   }
 }
 
+textarea {
+    resize: none;
+    min-width: 90%;
+    margin-bottom: 20px;
+   }
+
 .contact-us__liner {
-    margin-bottom: 19px;
+    display: flex;
+    flex-wrap: wrap;
     @include media-mobile {
-        flex-direction: column;
-        margin-bottom: 0px;
+        justify-content: center;
+            margin-bottom: 0px;
         >* {
-margin-bottom: 19px;
+            margin-bottom: 19px;
         }
     }
 }
+
 
 .contact_text {
     @extend %font-add;
@@ -59,12 +64,25 @@ margin-bottom: 19px;
 .contact-us__button {
     >* {min-width: 50px;
         text-align: center;
-
+     @include media-mobile {
+         margin-top: 24px;
+     }
     }
 }
 
-.qw {
-    margin: 0 25px 18px 0;
+.contact-form:first-child {
+    margin-right: 16px;
+    @include media-mobile {
+        margin-right: 0;
+    }
+}
+.contact-form {
+    margin-bottom: 18px;
+    min-width: 45px;
+    flex-basis: auto;
+    @include media-mobile {
+        flex-basis: 100%;
+    }
 }
 
 .key {
@@ -109,4 +127,10 @@ margin-bottom: 19px;
     color: $color-heading;
     text-decoration: none;
     @include font($size: 2.5rem, $height: 2.6rem, $weight: normal);
+}
+
+.POST {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
