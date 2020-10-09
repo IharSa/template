@@ -299,6 +299,34 @@
 </section>
 <!--the end footer-->
 
+<script>
+    const number = 8;
+let result = false;
+
+while (!result) {
+const answer = prompt('Как Вы думаете, сколько будет 2*2*2 ?');
+if (answer === null) {
+  break;
+}
+switch (+answer) {
+  case number - 2:
+  case number + 2:
+    alert('Уже теплее!');
+    break;
+  case number - 1:
+  case number + 1:
+    alert('Горячо!');
+    break;
+  case number:
+    alert ( 'Вы правы, это ' + number);
+    result = true;
+    break;
+  default:
+    alert('Холодно!');
+}
+}
+
+  </script> 
 
 </body>
 </html>
